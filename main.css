@@ -1,0 +1,96 @@
+body{
+    /* hold */
+}
+
+.header{
+    display: flex;
+    width: auto; height: auto;
+    padding: 60px;
+    align-items: center;
+    text-align: center;
+    background: chocolate;
+    color: cornsilk;
+    font-size: 30px;
+
+}
+
+.fish__list{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+    text-align: left;
+    background: rgb(59, 47, 39);
+    color: cornsilk;
+    font-size: 15px;
+}
+
+.list{
+    padding: 20px;
+    text-align: left;
+    background: rgb(59, 58, 66);
+    color: rgb(122, 104, 28);
+    font-size: 15px;
+
+}
+
+.fish{
+    padding: 20px;
+    text-align: left;
+    background: rgb(27, 152, 156);
+    color: rgb(122, 104, 28);
+    font-size: 15px;
+
+}
+
+.location__tips{
+justify-content: flex-end;
+padding: 20px;
+    text-align: left;
+    background: rgb(216, 193, 178);
+    color: rgb(29, 25, 9);
+    font-size: 15px;
+}
+
+.tips{
+    padding: 20px;
+    text-align: left;
+    background: rgb(49, 101, 131);
+    color: rgb(122, 104, 28);
+    font-size: 15px;
+
+}
+
+.location__list{
+    padding: 20px;
+    text-align: left;
+    background: rgb(68, 58, 128);
+    color: rgb(122, 104, 28);
+    font-size: 15px;
+}
+
+.location{
+    padding: 20px;
+    text-align: left;
+    background: rgb(179, 170, 230);
+    color: rgb(122, 104, 28);
+    font-size: 15px;
+}
+
+.care{
+    padding: 20px;
+    text-align: left;
+    background: rgb(192, 185, 230);
+    color: rgb(122, 104, 28);
+    font-size: 15px;
+}
+
+.footer{
+    justify-content: center;
+    padding: 5px;
+    text-align: left;
+    background: rgb(226, 225, 235);
+    color: rgb(122, 104, 28);
+    font-size: 15px;
+}
