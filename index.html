@@ -3,59 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css"></head>
+    <link rel="stylesheet" href="main.css">
+</head>
 <body>
-    <section>
-        <h1 class="header">Martins Aquarium</h1>
-    </section>
-    <section class="fish__list">
-        <h2>Fish in Martins Aquarium</h2>
-        <div class= list>
-            <ul class=fish__cards>
-                <li class="thefish"">Beta Fish</li>
-                <li class="thefish">Tetra</li>
-                <li class="thefish">Clown Fish</li>
-                <li class="thefish">Angel Fish</li>
-            </ul>
-        </div>
-        <div class="fish">
-            <!-- fish cards go here (images) -->
-            <p><img src="images/1200px-Clown_fish_in_the_Andaman_Coral_Reef.jpeg" alt="a clown fish" width="150px"/>
-                <img src="images/betta.jpeg" alt="a Betta fish" width="150px"/>
-                <img src="images/tetra.jpeg" alt="a Tetra fish" width="150px"/>
-                <img src="images/1117801547.jpeg" alt="an Angel fish" width="150px"/>
-            </p>
-        </div>
-    <Section class=location__tips>
-        <h2>Places Martin has Been</h2>
-        <div class=tips>
-            <!-- tips go here -->
-        </div>
-        <div class=location__list>
-            <!-- location goes here -->
-            <ul>
-                <li class="location">Martins Travels</li>
-                <li class="location">Martins Travels</li>
-                <li class="location">Martins Travels</li>
-                <li class="location">Martins Travels</li>
+    <style> body{
+        background-image: url(images/underwater.jpg);}</style> 
+    
+    <h1 class="title">Martins Aquarium</h1>
+        <main>
+            <article class=theBigOne>
+             <div class="main">
+                <h3 class="header__fish">Inventory</h3>
+                <section class="fish">
+                    <section class="fish__cards">
+                        <h3>Clown Fish</h3>
+                        <img src="images/1200px-Clown_fish_in_the_Andaman_Coral_Reef.jpeg" alt="a clown fish" width="150px" height="100px"/>
+                        <p><b>John Wayne</b></p>
+                        <p>Length</p>
+                        <p>Color</p>
+                        <p>Location</p>
+                    </section> 
+                    <section class="fish__cards">
+                        <h3>Betta Fish</h3>
+                        <img src="images/betta.jpeg" alt="a Betta fish" width="150px" height="100px"/>
+                        <p><b>Derek</b></p>
+                        <p>Length</p>
+                        <p>Color</p>
+                        <p>Location</p>
+                    </section> 
+                    <section class="fish__cards">
+                        <h3>Tetra</h3>
+                        <img src="images/tetra.jpeg" alt="a tetra fish" width="150px" height="100px"/>   
+                        <p><b>Lawrence</b></p>                   
+                        <p>Length</p>
+                        <p>Color</p>
+                        <p>Location</p>
+                    </section> 
+                    <section class="fish__cards">
+                        <h3>Angel Fish</h3>
+                        <img src="images/1117801547.jpeg" alt="an Angel fish" width="150px" height="100px"/>   
+                        <p><b>Yumyulack</b></p>                   
+                        <p>Length</p>
+                        <p>Color</p>
+                        <p>Location</p>
+                    </section> 
+                    </div>
+            </div>
 
-            </ul>
+            <div class="main">
+                <h3 class="header__locations">Locations</h3>
+                <section class="locations">
+                    <section class="loc__cards">
+                        <h3>Peru</h3>
+                        <img src="images/peru.jpeg" alt="fishing boats in peru" width="150px"/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </section> 
+                    <section class="loc__cards">
+                        <h3>China</h3>
+                        <img src="images/ricepaddie.jpeg" alt="rice paddies in china" width="150px"/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </section> 
+                    <section class="loc__cards">
+                        <h3>Iceland</h3>
+                        <img src="images/iceland.jpeg" alt="Iceland" width="150px"/>   
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </section> 
+                    <section class="loc__cards">
+                        <h3>Ireland</h3>
+                        <img src="images/ireland.jpeg" alt="Ireland" width="150px"/>   
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </section> 
+                </section> 
+            </div>
+            <aside class="tips">
+                <h3 class="header__tips">How to Care for Fish</h3>
+                    <ul class="tips__list">
+                        <li>Feed them regularly</li>
+                        <li>Vacuum their gravel</li>
+                        <li>Don't hug them too tightly</li>
+                    </ul>
+            </aside>
         </div>
-    </Section>
-    <aside class=care>
-        <ul>
-            <li class="carelist">Fish Care Tips</li>
-            <li class="carelist">Fish Care Tips</li>
-            <li class="carelist">Fish Care Tips</li>
-            <li class="carelist">Fish Care Tips</li>
-        </ul>
+            </article>
+        </main>
 
-    </aside>
-    </section>
-    <section class=footer>
-        <footer>®Martins Aquarium 2021</footer>
-    </section>
 </body>
 </html>
