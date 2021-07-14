@@ -2,7 +2,7 @@
 @import "./location__cards.css";
 @import "./tips__list.css";
 
-.thebigone{
+.theBigOne{
     display: flex;
     flex-flow: wrap row;
     justify-content: space-between;
